@@ -64,6 +64,6 @@ Add this line to schedule your script to run daily at a specific time:
 Temporarily set it to run in a few minutes:
 ```bash
 # Replace your cron job with this temporarily
-*/5 * * * * /usr/bin/python3 /home/username/scripts/my_daily_script.py >> /home/username/scripts/logs/cron.log 2>&1
+*/5 * * * * /usr/bin/python3 /home/username/scripts/test_script.py >> /home/username/scripts/logs/cron.log 2>&1
 ```
 (This runs every 5 minutes for testing)
